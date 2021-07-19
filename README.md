@@ -5,11 +5,11 @@ It can display your messages, big clocks, audio spectrum music, animated gifs, w
 
 
 
-[![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo"){target="_blank"}
+[![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo")
 
 
 
-Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.
+Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.  
 https://youtu.be/1jUjtwE3uyU
 
 
