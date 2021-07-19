@@ -1,15 +1,24 @@
 # SwinGraf
-Swingraf is an incredible LED panel made with an ESP32. It can display your messages, big clocks, audio spectrum music, animated gifs, weather, RSS feeds... 
+Swingraf is an incredible LED panel made with an ESP32.  
+It can display your messages, big clocks, audio spectrum music, animated gifs, weather, RSS feeds... 
 
-![](images/SwinGraf.gif)
+
+
+
+[![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo")
+
+
+
+
 
 Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.
+https://youtu.be/1jUjtwE3uyU
 
 
 
 
 IMPORTANT :
-Le code et les schémas de cette réalisation seront disponibles à la rentrée 2021 
+Le code et les schémas de cette réalisation seront disponibles à la rentrée 2021.  
 Merci pour votre patience...
 
 
