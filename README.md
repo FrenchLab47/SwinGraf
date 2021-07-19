@@ -8,9 +8,6 @@ It can display your messages, big clocks, audio spectrum music, animated gifs, w
 [![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo"){target="_blank"}
 
 
-<a href="http://example.com" target="_blank">http://example.com</a>
-
-
 
 Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.
 https://youtu.be/1jUjtwE3uyU
