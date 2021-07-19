@@ -9,16 +9,7 @@ It can display your messages, big clocks, audio spectrum music, animated gifs, w
 Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.  
 https://youtu.be/1jUjtwE3uyU
 
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
+
 
 IMPORTANT :
 Le code et les schémas de cette réalisation seront disponibles à la rentrée 2021.  
