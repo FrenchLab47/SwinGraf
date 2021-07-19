@@ -8,6 +8,7 @@ It can display your messages, big clocks, audio spectrum music, animated gifs, w
 [![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo"){target="_blank"}
 
 
+<a href="http://example.com" target="_blank">http://example.com</a>
 
 
 
