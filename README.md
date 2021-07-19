@@ -41,6 +41,9 @@ Dans les versions à venir, je prévois une connectivité avec d'autres services
 
 On peut le commander depuis une application Android, ou un logiciel Windows, ou un simple navigateur Internet.  
 
+[![SwinGraf Demo](images/SwinGraf_clock1.jpg)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo")
+
+
 Search tags :  
 ESP32, HUB75, LED panel, Arduino, Audio spectrum, music visualiser, GIF animated, text marquee, big clock, weather 
 
