@@ -3,25 +3,24 @@ Swingraf is an incredible LED panel made with an ESP32.
 It can display your messages, big clocks, audio spectrum music, animated gifs, weather, RSS feeds... 
 
 
-[![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo")
-
-
-Demo 1 : Textes, Horloges et spectre(s) audio, avec 3 panneaux SwinGraf superposés.  
+### Demo 1 : Textes, Horloges et spectre audio, avec 3 panneaux SwinGraf superposés.  
 https://youtu.be/1jUjtwE3uyU
 
+[![SwinGraf Demo](images/SwinGraf.gif)](https://youtu.be/1jUjtwE3uyU "SwinGraf Demo")
+
+### Demo 2 : Plusieurs styles de spectre audio.  
+https://youtu.be/ms-7B8JB-Xc
 
 
-IMPORTANT :
+### IMPORTANT :
 Le code et les schémas de cette réalisation seront disponibles à la rentrée 2021.  
 Merci pour votre patience...
 
 
-SwinGraf est un panneau LED RGB 128x32 avec connectivité WiFi
-On peut le commander depuis une application Android, ou un logiciel Windows, ou un simple navigateur Internet.
+### Description  
+SwinGraf est un panneau LED RGB 128x32 avec connectivité WiFi.  
 
-
-
-SwinGraf peut afficher :
+Il peut afficher :
 
 - Des textes sur plusieurs lignes. Les messages sont définissables à l'avance, un clic pour les lancer.
 - Horloge(s) : Plusieurs styles d'horloges avec couleurs ou images modifiables.
@@ -39,6 +38,8 @@ SwinGraf peut afficher :
 SwinGraf est réalisé avec un ESP32 et deux RGB LED Panel de type HUB75 64x32 (soit un total de 128x32 leds).
 Le circuit imprimé comprend aussi un module audio Bluetooth 5.0 pour une connectivité de la musique sans fil.
 Dans les versions à venir, je prévois une connectivité avec d'autres services (domotique, réseaux sociaux, etc.)
+
+On peut le commander depuis une application Android, ou un logiciel Windows, ou un simple navigateur Internet.
 
 
 
