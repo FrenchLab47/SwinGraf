@@ -35,96 +35,76 @@ Il peut afficher :
 - Possibilité d'activer ou désactiver, à tout moment, chaque module de la séquence.
 - Mise à jour du firmware, avec recherche automatique et affichage des versions.
 
-SwinGraf est réalisé avec un ESP32 et deux RGB LED Panel de type HUB75 64x32 (soit un total de 128x32 leds).
-Le circuit imprimé comprend aussi un module audio Bluetooth 5.0 pour une connectivité de la musique sans fil.
-Dans les versions à venir, je prévois une connectivité avec d'autres services (domotique, réseaux sociaux, etc.)
+SwinGraf est réalisé avec un ESP32 et deux RGB LED Panel de type HUB75 64x32 (soit un total de 128x32 leds).  
+Le circuit imprimé comprend aussi un module audio Bluetooth 5.0 pour une connectivité de la musique sans fil.  
+Dans les versions à venir, je prévois une connectivité avec d'autres services (domotique, réseaux sociaux, etc.)  
 
-On peut le commander depuis une application Android, ou un logiciel Windows, ou un simple navigateur Internet.
+On peut le commander depuis une application Android, ou un logiciel Windows, ou un simple navigateur Internet.  
 
+Search tags :  
+ESP32, HUB75, LED panel, Arduino, Audio spectrum, music visualiser, GIF animated, text marquee, big clock, weather 
 
+Liste des librairies utilisée et remerciements :  
 
-
-
-
-
-Tags : ESP32, HUB75, LED panel, Arduino, Audio spectrum, music visualiser, GIF animated, text marquee, big clock, weather 
-
-
-
-
-Liste des librairies utilisée et remerciements :
-
-
-Arduino IDE
+Arduino IDE  
 https://github.com/arduino/Arduino
 
-Arduino ESP32
+Arduino ESP32  
 https://github.com/espressif/arduino-esp32
 
-
-ESP32-HUB75-MatrixPanel-I2S-DMA
+ESP32-HUB75-MatrixPanel-I2S-DMA  
 https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA
 
-
-Adafruit_GFX
+Adafruit_GFX  
 https://github.com/adafruit/Adafruit-GFX-Library
 
-U8g2_for_Adafruit_GFX
+U8g2_for_Adafruit_GFX  
 https://github.com/olikraus/U8g2_for_Adafruit_GFX
 
-
-ESPAsyncWebServer et AsyncWebSocket
+ESPAsyncWebServer et AsyncWebSocket  
 https://github.com/me-no-dev/ESPAsyncWebServer
 
-
-AnimatedGIF
+AnimatedGIF  
 https://github.com/bitbank2/AnimatedGIF
 
-AnimatedGIF (version modifiée) :
-https://github.com/MichaelBell/pico-projects/tree/master/sdgif
+ArduinoJson  
+https://github.com/bblanchon/ArduinoJson  
+
+ezTime  
+https://github.com/ropg/ezTime  
+
+CircularBuffer  
+https://github.com/rlogiacco/CircularBuffer  
+
+elapsedMillis  
+https://github.com/pfeerick/elapsedMillis  
 
 
-ArduinoJson
-https://github.com/bblanchon/ArduinoJson
+### Autres services et applications :
 
-ezTime
-https://github.com/ropg/ezTime
-
-CircularBuffer
-https://github.com/rlogiacco/CircularBuffer
-
-
-elapsedMillis
-https://github.com/pfeerick/elapsedMillis
-
-
-
-Autres services ou applications :
-
-Les données météo sont fournies par openweathermap. Il suffit d'ouvrir un compte pour obtenir une clé API.
+Les données météo sont fournies par openweathermap.  
+Il suffit d'ouvrir un compte pour obtenir une clé API.
 https://openweathermap.org/
 
-Les Flux RSS sont gérés par un serveur PHP personnel avec un agrégateur de Flux.
-Ce même serveur dispose d'un espace FTP permettant l'upload et le téléchargement d'images GIF, et les mises à jour du firmware. 
-Si vous ne disposez pas d'un serveur, il est possible d'enregistrer les images sur la carte SD de SwingGraf avant de les afficher.
+Les Flux RSS sont gérés par un serveur PHP personnel avec un agrégateur de Flux.  
+Ce même serveur dispose d'un espace FTP permettant l'upload et le téléchargement d'images GIF, et les mises à jour du firmware.   
+Si vous ne disposez pas d'un serveur, il est possible d'enregistrer les images sur la carte SD de SwingGraf avant de les afficher.  
+
+### Schémas, circuit Imprimé
+Information à venir ...
 
 
-Schémas, circuit Imprimé
-Information à compléter ...
-
-
-Boitier et fichier 3D
+### Boitier et fichier 3D
 Il sera possible de télécharger les fichiers STL (Print 3D) pour imprimer les éléments de construction du boitier.
 
 
-
-
-
-Sources d'inspiration :
+### Sources d'inspiration :
 
 MD Parola
 https://github.com/MajicDesigns/MD_Parola
-J'avais réalisé un petit afficheur (rouge) avec des MAX7219 et MD_Parola. Les effets de cette librairie étaient très réussis.  
-Je n'ai pas été en mesure de convertir cette librairie pour les panneaux RGB HUB75, mais Adafruit_GFX m'a permis de créer quelques effets de textes similaire
+J'avais réalisé un petit afficheur (rouge) avec des MAX7219 et MD_Parola. Les effets de cette librairie sont très réussis.  
+Je n'ai pas été en mesure de convertir cette librairie pour les panneaux RGB HUB75, mais Adafruit_GFX m'a permis de créer quelques effets de textes similaires.
+
+
 
 
