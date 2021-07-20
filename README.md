@@ -70,6 +70,9 @@ https://github.com/me-no-dev/ESPAsyncWebServer
 AnimatedGIF  
 https://github.com/bitbank2/AnimatedGIF
 
+Arduino FFT  
+https://github.com/kosme/arduinoFFT
+
 ArduinoJson  
 https://github.com/bblanchon/ArduinoJson  
 
